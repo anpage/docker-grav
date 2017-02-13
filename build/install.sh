@@ -69,3 +69,4 @@ mv images images-dist
 
 rm -rf /setup
 chown -R runapps: /apps    # for full-container execution
+chmod a+w /apps/www/grav/tmp
