@@ -5,6 +5,6 @@ FROM chapdev/alpine-nginx-php
 ADD . /setup/
 
 # Git tag version number format should the same as below.
-ENV GRAV_VERSION=1.2.4
+ENV GRAV_VERSION=1.3.1
 
 RUN /setup/build/install.sh
