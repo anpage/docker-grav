@@ -9,7 +9,7 @@ if [ "$CHAP_SERVICE_NAME" != "" ]; then
 fi
 
 # Uncomment to default to your new derivative image name...
-prodimage="SolidRhino/docker-grav"
+prodimage="mattparlette/docker-grav"
 
 [ "$1" != "" ] && prodimage="$1"
 
